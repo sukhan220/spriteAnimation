@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#mycanvas{
+    width: 600px;
+    height: 600px;
+    align-self: center;
+}
+select,option,label{
+    font-size: 25px;
+    margin: 10px;
+}
+.banner img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 20px;
+    top: 20px;
+}
+
+.test{
+    width: 100%;
+    height: 90%;
+    background-color: blue;
+}
